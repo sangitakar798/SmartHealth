@@ -9,7 +9,7 @@ with open('model25.pickle', 'rb') as f:
     model = pickle.load(f)
 
 # load the encoder
-with open('encoder.pickle', 'rb') as f:
+with open('encoder1.pickle', 'rb') as f:
     encoder = pickle.load(f)
 
 @app.route('/')
